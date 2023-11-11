@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../imgs/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#login_box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border:4px solid black;
+    height:30vh;
+    width:30vw;
+    border-radius: 30px;
+    font-size:large;
+    font-weight: bolder;
+    scale:120%;
+    padding: 20px;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height:5vh;
+    font-weight: bold;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: red;
+    color:white;
+}
+#btn{
+    
+    display: flex;
+    
+}
+#newuser{
+    margin-right: 10px;
+}
+
+@media(max-width: 580px) {
+    #login_box{
+        scale:130%;
+        height:30vh;
+        width:50vw;
+        
+    }
+    button{
+        
+        width: 25vw;
+        height:5vh;
+    }
+}

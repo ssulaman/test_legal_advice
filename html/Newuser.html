@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Creation</title>
+    <link rel="stylesheet" href="../styles/newuser.css">
+</head>
+<body>
+    <fieldset>
+    <legend>
+    <h2 style="text-align: center;">NEW USER CREATION FORM...</h2></legend>
+    <label >FULL NAME :</label>
+    <input type="text" id="fname" value="sulaman">
+    <hr><br>
+    <label>EMAIL :</label>
+    <input type="email" required></td> <hr><br>
+    <label>PHONE NO :</label>
+    <input type="text"  id="mobileno" value=""> <hr><br>  
+    <label>DATE OF BIRTH :</label>
+    <input type="date" required > <hr>
+    <div id="gender">
+    <h4>SELECT GENDER:</h4>
+    <label>MALE :</label>
+    <input type="radio" name="gender" >
+    <label>FEMALE :</label>
+    <input type="radio" name="gender">
+    <label>OTHERS :</label>
+    <input type="radio" name="gender"></div> <hr><br>
+    <label>COUNTRY :</label>
+    <select>
+        <option>INDIA</option>
+        <option>CHINA</option>
+        <option >AMERICA</option>
+        <option>OTHERS</option>
+    </select><hr><br>
+
+
+    <input type="submit" onclick="chk()">
+</fieldset>
+<div id="outbox"></div>
+<script src="../js/newuser.js"></script>
+</body>
+</html>
